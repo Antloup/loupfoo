@@ -1,6 +1,6 @@
 # loup.foo
 
-[Small personnal website](https://loup.foo) built with [Svelte](https://svelte.dev/) and [TailwindCss](https://tailwindcss.com/)
+[Small personal website](https://loup.foo) built with [Svelte](https://svelte.dev/) and [TailwindCss](https://tailwindcss.com/)
 
 ## Setup
 
