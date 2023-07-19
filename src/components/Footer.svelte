@@ -14,7 +14,9 @@
             </a>
         </div>
         <div class="flex justify-center">
-            <p class="mt-0 mb-2">Made with <a href="https://kit.svelte.dev/">Svelte</a>, <a href="https://tailwindcss.com/">Tailwind CSS</a>, hosted by <a href="https://www.ovhcloud.com/">OVH</a></p>
+            <p class="mt-0 mb-2">Made with <a href="https://kit.svelte.dev/">Svelte</a>, <a
+                    href="https://tailwindcss.com/">Tailwind CSS</a>, hosted by <a
+                    href="https://www.ovhcloud.com/">OVH</a></p>
         </div>
     </div>
 </footer>

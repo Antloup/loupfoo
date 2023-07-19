@@ -12,7 +12,7 @@
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 space-y-6 divide-y justify-center md:gap-0 gap-y-4">
-        <slot />
+        <slot/>
     </div>
 </Collapse>
 

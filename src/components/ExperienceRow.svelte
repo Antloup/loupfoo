@@ -7,7 +7,8 @@
         {#each tools as tool}
             <a href="{toolsData[tool].site}" target="_blank" class="tooltip">
                 <span class="tooltip-text">{toolsData[tool].name}</span>
-                <img class="object-contain max-h-[6rem] min-h-[2rem] w-full" src="{toolsData[tool].src}" alt="{toolsData[tool].name}"/>
+                <img class="object-contain max-h-[6rem] min-h-[2rem] w-full" src="{toolsData[tool].src}"
+                     alt="{toolsData[tool].name}"/>
             </a>
         {/each}
     </div>

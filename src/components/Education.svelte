@@ -13,8 +13,9 @@
         <h2 class="text-4xl text-center align-middle">2014-2016</h2>
     </div>
     <div class="h-full flex flex-col items-center md:mr-[35%]">
-        <a href="https://www.univ-lyon1.fr/" target="_blank"><img class="object-contain max-h-[6rem] min-h-[2rem] w-full"
-                                                                  src="{imgLyon}" alt="Lyon1"/></a>
+        <a href="https://www.univ-lyon1.fr/" target="_blank"><img
+                class="object-contain max-h-[6rem] min-h-[2rem] w-full"
+                src="{imgLyon}" alt="Lyon1"/></a>
         <h3 class="text-3xl text-center align-middle">{$lang.eduLyon1}</h3>
     </div>
     <div class="h-full flex items-center justify-center md:ml-[35%]">
