@@ -26,3 +26,17 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
+
+## Docker
+
+Build with docker via:
+
+```bash
+docker build -t loopfoo .
+```
+
+Run with docker via:
+
+```bash
+docker run -p 8100:8100 loopfoo
+```
