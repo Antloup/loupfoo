@@ -3,7 +3,7 @@
 </div>
 
 <div class="h-full flex flex-col justify-center md:mr-[35%]">
-    <div class="w-full flex flex-row mb-5 space-x-6 flex-wrap justify-center">
+    <div class="w-full flex flex-row mb-10 space-x-6 flex-wrap justify-center">
         {#each tools as tool}
             <a href="{toolsData[tool].site}" target="_blank" class="tooltip">
                 <span class="tooltip-text">{toolsData[tool].name}</span>

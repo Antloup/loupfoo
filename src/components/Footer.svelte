@@ -14,8 +14,12 @@
             </a>
         </div>
         <div class="flex justify-center">
-            <p class="mt-0 mb-2">Made with <a href="https://kit.svelte.dev/">Svelte</a>, <a
+            <p class="mt-0 mb-2">Made with <a class="no-underline hover:underline" target="_blank" href="https://kit.svelte.dev/">Svelte</a>, <a
+                    class="no-underline hover:underline"
+                    target="_blank"
                     href="https://tailwindcss.com/">Tailwind CSS</a>, hosted by <a
+                    class="no-underline hover:underline"
+                    target="_blank"
                     href="https://www.ovhcloud.com/">OVH</a></p>
         </div>
     </div>
