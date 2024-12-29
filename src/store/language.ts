@@ -25,6 +25,8 @@ let enContent = {
 
     darylExpTime: '{lastExpTime} (Dec 2020 - Now) - Annecy, France',
     darylExpTitle: 'Backend Typescript Developer - Daryl Social Software',
+    iutExpTime: '2 months (March - April 2024) - Bourg-en-Bresse, France',
+    iutExpTitle: 'Part-time Instructor - IUT Lyon 1',
     amadeusExpTime: '6 months (March - August 2019) - Sophia Antipolis, France',
     amadeusExpTitle: 'Data Scientist - Amadeus',
     fiducialSecExpTitle: 'PHP Developer - Fiducial',
@@ -71,6 +73,8 @@ let frContent = {
 
     darylExpTime: '{lastExpTime} (Dec 2020 - Auj.) - Annecy',
     darylExpTitle: 'Développeur backend Typescript - Daryl Social Software',
+    iutExpTime: '2 mois (Mars - Avril 2024) - Bourg-en-Bresse, France',
+    iutExpTitle: 'Enseignant vacataire - IUT Lyon 1',
     amadeusExpTime: '6 mois (Mars - Aout 2019) - Sophia Antipolis',
     amadeusExpTitle: 'Data Scientist - Amadeus',
     fiducialSecExpTitle: 'Développeur PHP - Fiducial',

@@ -23,6 +23,14 @@
             }]
         },
         {
+            title: $lang.iutExpTitle,
+            subTitle: $lang.iutExpTime,
+            techs: [{
+                points: 5,
+                tools: ['typescript', 'javascript', 'vue']
+            }]
+        },
+        {
             title: $lang.amadeusExpTitle,
             subTitle: $lang.amadeusExpTime,
             techs: [{
@@ -48,6 +56,17 @@
             }]
         },
         {
+            title: $lang.fiducialFirstExpTitle,
+            subTitle: $lang.fiducialFirstExpTime,
+            techs: [{
+                points: 5,
+                tools: ['php', 'laravel']
+            }, {
+                points: 4,
+                tools: ['sql']
+            }]
+        },
+        {
             title: $lang.alfaExpTitle,
             subTitle: $lang.alfaExpTime,
             techs: [{
@@ -59,17 +78,6 @@
             }, {
                 points: 3,
                 tools: ['javascript', 'git']
-            }]
-        },
-        {
-            title: $lang.fiducialFirstExpTitle,
-            subTitle: $lang.fiducialFirstExpTime,
-            techs: [{
-                points: 5,
-                tools: ['php', 'laravel']
-            }, {
-                points: 4,
-                tools: ['sql']
             }]
         },
     ]
