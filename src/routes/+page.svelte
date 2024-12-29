@@ -5,8 +5,11 @@
                 Anthony Loup
             </h1>
             <div class="flex justify-center">
-                <div class="aspect-w-1 aspect-h-1 mb-1">
-                    <img class="mb-5 object-cover rounded-[5px]" style="max-width: 8rem;" src="{imgPp}" alt="Its me !"/>
+                <div class="tooltip">
+                    <div class="aspect-w-1 aspect-h-1 mb-1">
+                        <img class="mb-5 object-cover rounded-[5px]" style="max-width: 8rem;" src="{imgPp}" alt="Its me !"/>
+                    </div>
+                    <span class="tooltip-text">{$lang.jokeOnMe}</span>
                 </div>
             </div>
 

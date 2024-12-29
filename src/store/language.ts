@@ -12,7 +12,8 @@ let enContent = {
     interestPiano: "Piano / Musical composition",
     interestRubik: "Rubik cube",
 
-    highlightExp: '3+ years of experience',
+    jokeOnMe: 'It\'s me !',
+    highlightExp: '5+ years of experience',
     highlightSchool: 'Graduated from prestigious university - INSA Lyon',
     highlightCar: 'Driving licence',
     highlightFr: 'French - Native',
@@ -57,7 +58,8 @@ let frContent = {
     interestPiano: "Piano / Composition",
     interestRubik: "Rubik cube",
 
-    highlightExp: "+3 ans d'expérience",
+    jokeOnMe: 'Ça, c\'est moi !',
+    highlightExp: "+5 ans d'expérience",
     highlightSchool: "Diplomé d'une grande école - INSA Lyon",
     highlightCar: 'Permis B - Véhiculé',
     highlightFr: 'Français - langue maternelle',
