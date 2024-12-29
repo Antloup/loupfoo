@@ -32,11 +32,11 @@ You can preview the production build with `npm run preview`.
 Build with docker via:
 
 ```bash
-docker build -t loopfoo .
+docker build -t loupfoo .
 ```
 
 Run with docker via:
 
 ```bash
-docker run -p 8100:8100 loopfoo
+docker run -p 8100:8100 loupfoo
 ```
