@@ -60,17 +60,6 @@
             subTitle: $lang.fiducialFirstExpTime,
             techs: [{
                 points: 5,
-                tools: ['php', 'laravel']
-            }, {
-                points: 4,
-                tools: ['sql']
-            }]
-        },
-        {
-            title: $lang.alfaExpTitle,
-            subTitle: $lang.alfaExpTime,
-            techs: [{
-                points: 5,
                 tools: ['php']
             }, {
                 points: 4,
@@ -78,6 +67,17 @@
             }, {
                 points: 3,
                 tools: ['javascript', 'git']
+            }]
+        },
+        {
+            title: $lang.alfaExpTitle,
+            subTitle: $lang.alfaExpTime,
+            techs: [{
+                points: 5,
+                tools: ['php', 'laravel']
+            }, {
+                points: 4,
+                tools: ['sql']
             }]
         },
     ]
