@@ -21,7 +21,7 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: '/loupfoo' // repo name prefixed with slash
+			base: '' // repo name prefixed with slash
 		}
 	}
 };
