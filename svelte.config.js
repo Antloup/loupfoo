@@ -21,7 +21,7 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: '' // repo name prefixed with slash
+			base: '' // Use empty string for root domain
 		}
 	}
 };
