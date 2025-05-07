@@ -17,6 +17,8 @@
 <script lang="ts">
     import ExpBar from "./ExpBar.svelte";
     import imgTs from "$lib/images/ts.png";
+    import imgCs from "$lib/images/cs.png";
+    import imgGodot from "$lib/images/godot.png";
     import imgJs from "$lib/images/js.png";
     import imgGql from "$lib/images/gql.png";
     import imgSql from "$lib/images/sql.png";
@@ -38,6 +40,16 @@
     import imgScrapy from "$lib/images/scrapy.png";
 
     const toolsData: Record<string, { name: string; src: string; site: string }> = {
+        csharp: {
+            name: 'C#',
+            src: imgCs,
+            site: 'https://learn.microsoft.com/en-us/dotnet/csharp/',
+        },
+        godot: {
+            name: 'Godot',
+            src: imgGodot,
+            site: 'https://godotengine.org/',
+        },
         typescript: {
             name: 'Typescript',
             src: imgTs,

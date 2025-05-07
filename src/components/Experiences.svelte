@@ -9,6 +9,20 @@
     let techStack: TechStackType;
     $: techStack = [
         {
+            title: $lang.indepExpTitle,
+            subTitle: $lang.indepExpTime,
+            techs: [{
+                points: 5,
+                tools: ['typescript']
+            }, {
+                points: 4,
+                tools: ['sql', 'godot', 'csharp']
+            }, {
+                points: 3,
+                tools: ['git', 'docker']
+            }]
+        },
+        {
             title: $lang.darylExpTitle,
             subTitle: $lang.darylExpTime,
             techs: [{

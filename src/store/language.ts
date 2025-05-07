@@ -23,7 +23,9 @@ let enContent = {
     eduLyon1: '2 years technical degree (DUT) - Computer Science',
     eduHs: 'High School Diploma - Science in Engineering',
 
-    darylExpTime: '{lastExpTime} (Dec 2020 - Now) - Annecy, France',
+    indepExpTime: '{lastExpTime} (Fev 2025 - Now)',
+    indepExpTitle: 'Freelance - Independent',
+    darylExpTime: '4 years, 2 mouths (Dec 2020 - Jan 2025) - Annecy, France',
     darylExpTitle: 'Backend Typescript Developer - Daryl Social Software',
     iutExpTime: '2 months (March - April 2024) - Bourg-en-Bresse, France',
     iutExpTitle: 'Part-time Instructor - IUT Lyon 1',
@@ -71,7 +73,9 @@ let frContent = {
     eduLyon1: 'DUT - Informatique',
     eduHs: 'Bac S - Sciences de l\'Ingénieur',
 
-    darylExpTime: '{lastExpTime} (Dec 2020 - Auj.) - Annecy',
+    indepExpTime: '{lastExpTime} (Fev 2025 - Auj.)',
+    indepExpTitle: 'Freelance - Independent',
+    darylExpTime: '4 ans, 2 mois (Dec 2020 - Jan 2025) - Annecy',
     darylExpTitle: 'Développeur backend Typescript - Daryl Social Software',
     iutExpTime: '2 mois (Mars - Avril 2024) - Bourg-en-Bresse, France',
     iutExpTitle: 'Enseignant vacataire - IUT Lyon 1',
@@ -98,7 +102,7 @@ let frContent = {
 
 // Set dynamic variables
 
-const elapsedTime = getElapsedTime(2020, 12);
+const elapsedTime = getElapsedTime(2025, 2);
 let yearsText = {fr: '', en: ''};
 let mounthsText = {fr: '', en: ''};
 let andText = {fr: '', en: ''};
@@ -114,8 +118,8 @@ if (elapsedTime.years > 0 && elapsedTime.months > 0) {
     andText.fr = 'et ';
     andText.en = 'and ';
 }
-frContent.darylExpTime = frContent.darylExpTime.replace('{lastExpTime}', `${yearsText.fr} ${andText.fr} ${mounthsText.fr}`).trim()
-enContent.darylExpTime = enContent.darylExpTime.replace('{lastExpTime}', `${yearsText.en} ${andText.en} ${mounthsText.en}`).trim()
+frContent.indepExpTime = frContent.indepExpTime.replace('{lastExpTime}', `${yearsText.fr} ${andText.fr} ${mounthsText.fr}`).trim()
+enContent.indepExpTime = enContent.indepExpTime.replace('{lastExpTime}', `${yearsText.en} ${andText.en} ${mounthsText.en}`).trim()
 
 
 export const selectedLanguage = writable<'fr' | 'en'>('fr');
